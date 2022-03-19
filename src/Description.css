@@ -1,0 +1,29 @@
+.Description h1 {
+  font-size: 39px;
+  line-height: 54px;
+}
+.Description .today-date-temp {
+  border: 1px solid rgb(0 0 0 / 14%);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 5%);
+  padding: 20px;
+  margin: 28px 0;
+}
+.Description .date-and-time {
+  font-size: 15px;
+  color: #f6e5e5;
+}
+.Description .today-temperature {
+  font-size: 24px;
+  font-weight: normal;
+  display: block;
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 5px;
+}
+.Description .high-temperature {
+  font-weight: 500;
+}
+.Description .low-temperature {
+  font-weight: 200;
+}

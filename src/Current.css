@@ -1,0 +1,46 @@
+.Current {
+  padding: 20px;
+  border: 1px solid rgb(0 0 0 / 14%);
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgb(0 0 0 / 5%);
+  font-size: 60px;
+}
+
+.Current .current-temp {
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 60px;
+  position: relative;
+  top: 10px;
+}
+.Current .current-temp-unit {
+  font-size: 36px;
+  position: relative;
+  top: -20px;
+  font-weight: 200;
+}
+
+.Current .description {
+  font-size: 24px;
+  font-weight: 300;
+  padding-top: 18px;
+  text-align: left;
+  text-transform: capitalize;
+}
+.Current .current-weather-icon {
+  float: right;
+  width: 135px;
+}
+.Current .today-temp-unit {
+  font-weight: lighter;
+  font-size: 16px;
+  padding-left: 3px;
+  position: relative;
+  top: -10px;
+}
+
+.Current .wind-humidity {
+  font-size: 14px;
+  font-weight: lighter;
+  padding-top: 5px;
+}

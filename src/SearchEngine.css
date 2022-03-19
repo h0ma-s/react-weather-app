@@ -1,0 +1,22 @@
+.SearchEngine .fa-search {
+  color: #faf7f2;
+}
+.SearchEngine .btn-outline-secondary {
+  border-color: #cfcbc3;
+}
+.SearchEngine .search-bar {
+  max-width: 85%;
+  margin-top: 20px;
+  left: 30px;
+  border-color: white;
+}
+.SearchEngine .search-button {
+  padding: 0 20px;
+}
+
+.SearchEngine .search-button:hover > .fa-search {
+  color: black;
+}
+.SearchEngine .search-button .hide {
+  visibility: hidden;
+}
