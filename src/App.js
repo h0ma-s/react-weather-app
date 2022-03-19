@@ -26,7 +26,7 @@ function App() {
       </div>
       <div className="source-code">
         <a
-          href="https://github.com/h0ma-s/weather-app"
+          href="https://github.com/h0ma-s/react-weather-app"
           target="_blank"
           rel="noreferrer noopener"
           className="code-link"
