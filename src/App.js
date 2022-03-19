@@ -1,6 +1,5 @@
 import React from "react";
 import SearchEngine from "./SearchEngine";
-import Current from "./Current";
 
 import "./App.css";
 
