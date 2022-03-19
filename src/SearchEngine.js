@@ -8,19 +8,18 @@ export default function SearchEngine() {
   const [city, setCity] = useState("London");
   const [loaded, setLoaded] = useState(false);
   const [weather, setWeather] = useState({});
-  getWeatherData(city);
 
   function handleResponse(response) {
     setLoaded(true);
     setWeather({
       cityName: response.data.name,
-      currentTemperature: response.data.main.temp,
-      wind: response.data.wind.speed,
-      humidity: response.data.main.humidity,
+      currentTemperature: Math.round(response.data.main.temp),
+      wind: Math.round(response.data.wind.speed),
+      humidity: Math.round(response.data.main.humidity),
       icon: `/media/${response.data.weather[0].icon}.svg`,
       description: response.data.weather[0].description,
-      maxTemp: response.data.main.temp_max,
-      minTemp: response.data.main.temp_min,
+      maxTemp: Math.round(response.data.main.temp_max),
+      minTemp: Math.round(response.data.main.temp_min),
     });
   }
 
@@ -67,7 +66,7 @@ export default function SearchEngine() {
     );
   } else {
     return (
-      <div>
+      <div onLoad={getWeatherData(city)}>
         {form}
         <p>The Application is Loding. Please Wait...</p>
       </div>

@@ -10,7 +10,6 @@ export default function Current(props) {
       <span>
         <img src={props.icon} alt="" className="current-weather-icon" />
       </span>
-
       <div className="description">{props.description}</div>
       <div className="wind-humidity">
         Wind: {props.wind} km/h Humidity: {props.humidity} %
